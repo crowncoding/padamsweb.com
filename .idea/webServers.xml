@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="7d04f097-bd64-4e6b-9665-e52dfa213d02" name="padamsweb.com" url="http://padamsweb.com">
-        <fileTransfer host="padamsweb.com" port="22" privateKey="$USER_HOME$/Downloads/LightsailDefaultPrivateKey-us-east-1.pem" accessType="SFTP" keyPair="true">
+      <webServer id="7d04f097-bd64-4e6b-9665-e52dfa213d02" name="padamsweb.com" url="https://padamsweb.com">
+        <fileTransfer host="padamsweb.com" port="22" privateKey="$USER_HOME$/Downloads/padamsweb.pem" accessType="SFTP" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
           </advancedOptions>
