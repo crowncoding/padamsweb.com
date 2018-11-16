@@ -14,7 +14,7 @@
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
 			<?php if ( has_nav_menu( 'primary' ) ) : ?>
-				<nav class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Primary Menu', 'twentysixteen' ); ?>">
+				<nav class="main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Primary Menu', 'twentysixteen_2016' ); ?>">
 					<?php
 						wp_nav_menu( array(
 							'theme_location' => 'primary',
@@ -25,7 +25,7 @@
 			<?php endif; ?>
 
 			<?php if ( has_nav_menu( 'social' ) ) : ?>
-				<nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'twentysixteen' ); ?>">
+				<nav class="social-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Footer Social Links Menu', 'twentysixteen_2016' ); ?>">
 					<?php
 						wp_nav_menu( array(
 							'theme_location' => 'social',
@@ -41,7 +41,7 @@
 			<div class="site-info">
 				<?php
 					/**
-					 * Fires before the twentysixteen footer text for footer customization.
+					 * Fires before the twentysixteen_2016 footer text for footer customization.
 					 *
 					 * @since Twenty Sixteen 1.0
 					 */
@@ -53,8 +53,8 @@
 					the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
 				}
 				?>
-				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentysixteen' ) ); ?>" class="imprint">
-					<?php printf( __( 'Proudly powered by %s', 'twentysixteen' ), 'WordPress' ); ?>
+				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentysixteen_2016' ) ); ?>" class="imprint">
+					<?php printf( __( 'Proudly powered by %s', 'twentysixteen_2016' ), 'WordPress' ); ?>
 				</a>
 			</div><!-- .site-info -->
 		</footer><!-- .site-footer -->
